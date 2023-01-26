@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
         double bmi = service.calculate(185, 65);
-        System.out.println("Индекс массы тела " + (int)bmi);
+        System.out.println("Индекс массы тела " + (int) bmi);
         System.out.println("Категория                        ИМТ");
         System.out.println("Острый дефицит массы            < 16");
         System.out.println("Недостаточная масса тела   16 - 18.5");
